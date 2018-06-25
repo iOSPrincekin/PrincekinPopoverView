@@ -105,13 +105,13 @@ open class PrincekinPopoverView: UIView {
     open var didShowHandler: (() -> ())?
     open var didDismissHandler: (() -> ())?
     
-    public file(set) var blackOverlay: UIControl = UIControl()
+    public fileprivate(set) var blackOverlay: UIControl = UIControl()
     
-    file var containerView: UIView!
+    fileprivate var containerView: UIView!
     
-     var contentView: UIView!
-    file var contentViewFrame: CGRect!
-    file var arrowShowPoint: CGPoint!
+    var contentView: UIView!
+    fileprivate var contentViewFrame: CGRect!
+    fileprivate var arrowShowPoint: CGPoint!
     
      convenience init() {
         self.init(frame: .zero)
