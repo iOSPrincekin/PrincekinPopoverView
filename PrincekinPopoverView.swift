@@ -1,6 +1,6 @@
 //
 //  PrincekinPopoverView.swift
-// 
+//
 //
 //  Created by LEE on 6/20/18.
 //  Copyright © 2018 LEE. All rights reserved.
@@ -79,25 +79,25 @@ open class PrincekinPopoverView: UIView {
     }
     
     // custom property
-    private var arrowSize: CGSize = CGSize(width: 16.0, height: 10.0)
-    private var animationIn: TimeInterval = 0.6
-    private var animationOut: TimeInterval = 0.3
-    private var cornerRadius: CGFloat = 6.0
-    private var sideEdge: CGFloat = 0
-    private var popoverType: PopoverViewType = .down
-    private var blackOverlayColor: UIColor = UIColor(white: 0.0, alpha: 0.2)
-    private var overlayBlur: UIBlurEffect?
-    private var popoverColor: UIColor = UIColor.white
-    private var dismissOnBlackOverlayTap: Bool = true
-    private var showBlackOverlay: Bool = true
-    private var highlightFromView: Bool = false
+     var arrowSize: CGSize = CGSize(width: 16.0, height: 10.0)
+     var animationIn: TimeInterval = 0.6
+     var animationOut: TimeInterval = 0.3
+     var cornerRadius: CGFloat = 6.0
+     var sideEdge: CGFloat = 0
+     var popoverType: PopoverViewType = .down
+     var blackOverlayColor: UIColor = UIColor(white: 0.0, alpha: 0.2)
+     var overlayBlur: UIBlurEffect?
+     var popoverColor: UIColor = UIColor.white
+     var dismissOnBlackOverlayTap: Bool = true
+     var showBlackOverlay: Bool = true
+     var highlightFromView: Bool = false
     //是否有阴影
-    private var showShadowy: Bool = false
+     var showShadowy: Bool = false
     //尖角的位置比例
-    private var arrowPositionRatio: CGFloat = 0.5
-    private var highlightCornerRadius: CGFloat = 0
-    private var springDamping: CGFloat = 0.7
-    private var initialSpringVelocity: CGFloat = 3
+     var arrowPositionRatio: CGFloat = 0.5
+     var highlightCornerRadius: CGFloat = 0
+     var springDamping: CGFloat = 0.7
+     var initialSpringVelocity: CGFloat = 3
     
     // custom closure
     open var willShowHandler: (() -> ())?
@@ -105,15 +105,15 @@ open class PrincekinPopoverView: UIView {
     open var didShowHandler: (() -> ())?
     open var didDismissHandler: (() -> ())?
     
-    public fileprivate(set) var blackOverlay: UIControl = UIControl()
+    public file(set) var blackOverlay: UIControl = UIControl()
     
-    fileprivate var containerView: UIView!
+    file var containerView: UIView!
     
      var contentView: UIView!
-    fileprivate var contentViewFrame: CGRect!
-    fileprivate var arrowShowPoint: CGPoint!
+    file var contentViewFrame: CGRect!
+    file var arrowShowPoint: CGPoint!
     
-    private convenience init() {
+     convenience init() {
         self.init(frame: .zero)
         self.backgroundColor = .clear
         self.accessibilityViewIsModal = true
