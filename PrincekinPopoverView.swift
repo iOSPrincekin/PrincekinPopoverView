@@ -109,7 +109,7 @@ open class PrincekinPopoverView: UIView {
     
     fileprivate var containerView: UIView!
     
-    var contentView: UIView!
+    open var contentView: UIView!
     fileprivate var contentViewFrame: CGRect!
     fileprivate var arrowShowPoint: CGPoint!
     
@@ -135,7 +135,7 @@ open class PrincekinPopoverView: UIView {
         self.didDismissHandler = dismissHandler
         self.accessibilityViewIsModal = true
     }
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         //    setUPUI()
     }
@@ -539,13 +539,12 @@ open class PrincekinPopoverView: UIView {
         color.setFill()
         arrow.fill()
     }
+
 }
-extension PrincekinPopoverView {
-    
+public extension PrincekinPopoverView {
     func setOptions(_ options: [PopoverViewOption]?){
         popoverViewOptions = options
     }
-    
     func createHighlightLayer(fromView: UIView, inView: UIView) {
         let path = UIBezierPath(rect: inView.bounds)
         let highlightRect = inView.convert(fromView.frame, from: fromView.superview)
