@@ -79,25 +79,25 @@ open class PrincekinPopoverView: UIView {
     }
     
     // custom property
-     var arrowSize: CGSize = CGSize(width: 16.0, height: 10.0)
-     var animationIn: TimeInterval = 0.6
-     var animationOut: TimeInterval = 0.3
-     var cornerRadius: CGFloat = 6.0
-     var sideEdge: CGFloat = 0
-     var popoverType: PopoverViewType = .down
-     var blackOverlayColor: UIColor = UIColor(white: 0.0, alpha: 0.2)
-     var overlayBlur: UIBlurEffect?
-     var popoverColor: UIColor = UIColor.white
-     var dismissOnBlackOverlayTap: Bool = true
-     var showBlackOverlay: Bool = true
-     var highlightFromView: Bool = false
+    private var arrowSize: CGSize = CGSize(width: 16.0, height: 10.0)
+    private var animationIn: TimeInterval = 0.6
+    private var animationOut: TimeInterval = 0.3
+    private var cornerRadius: CGFloat = 6.0
+    private var sideEdge: CGFloat = 0
+    private var popoverType: PopoverViewType = .down
+    private var blackOverlayColor: UIColor = UIColor(white: 0.0, alpha: 0.2)
+    private var overlayBlur: UIBlurEffect?
+    private var popoverColor: UIColor = UIColor.white
+    private var dismissOnBlackOverlayTap: Bool = true
+    private var showBlackOverlay: Bool = true
+    private var highlightFromView: Bool = false
     //是否有阴影
-     var showShadowy: Bool = false
+    private var showShadowy: Bool = false
     //尖角的位置比例
-     var arrowPositionRatio: CGFloat = 0.5
-     var highlightCornerRadius: CGFloat = 0
-     var springDamping: CGFloat = 0.7
-     var initialSpringVelocity: CGFloat = 3
+    private var arrowPositionRatio: CGFloat = 0.5
+    private var highlightCornerRadius: CGFloat = 0
+    private var springDamping: CGFloat = 0.7
+    private var initialSpringVelocity: CGFloat = 3
     
     // custom closure
     open var willShowHandler: (() -> ())?
@@ -113,7 +113,7 @@ open class PrincekinPopoverView: UIView {
     fileprivate var contentViewFrame: CGRect!
     fileprivate var arrowShowPoint: CGPoint!
     
-     convenience init() {
+    private convenience init() {
         self.init(frame: .zero)
         self.backgroundColor = .clear
         self.accessibilityViewIsModal = true
@@ -145,7 +145,7 @@ open class PrincekinPopoverView: UIView {
     
     override open func layoutSubviews() {
         super.layoutSubviews()
-     //   self.contentView.frame = self.bounds
+        //   self.contentView.frame = self.bounds
     }
     
     open func showAsDialog(_ contentView: UIView) {
@@ -250,12 +250,12 @@ open class PrincekinPopoverView: UIView {
                 self.blackOverlay.addTarget(self, action: #selector(PrincekinPopoverView.dismiss), for: .touchUpInside)
             }
         }
-            self.containerView = inView
-            self.contentView = contentView
-            self.contentView.backgroundColor = UIColor.clear
-            self.contentView.layer.cornerRadius = self.cornerRadius
-            self.contentView.layer.masksToBounds = true
-            self.arrowShowPoint = point
+        self.containerView = inView
+        self.contentView = contentView
+        self.contentView.backgroundColor = UIColor.clear
+        self.contentView.layer.cornerRadius = self.cornerRadius
+        self.contentView.layer.masksToBounds = true
+        self.arrowShowPoint = point
         self.show()
     }
     open func showAgain()  {
@@ -540,10 +540,10 @@ open class PrincekinPopoverView: UIView {
         arrow.fill()
     }
 }
- extension PrincekinPopoverView {
-
+extension PrincekinPopoverView {
+    
     func setOptions(_ options: [PopoverViewOption]?){
-    popoverViewOptions = options
+        popoverViewOptions = options
     }
     
     func createHighlightLayer(fromView: UIView, inView: UIView) {
