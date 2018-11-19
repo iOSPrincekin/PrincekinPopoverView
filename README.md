@@ -1,4 +1,4 @@
-PrincekinKlineFrame
+PrincekinPopoverView
 ===========
 
 [![Platform](http://cocoapod-badges.herokuapp.com/p/PrincekinPopoverView/badge.png)](https://github.com/iOSPrincekin/PrincekinPopoverView)
