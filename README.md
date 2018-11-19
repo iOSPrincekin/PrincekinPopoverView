@@ -22,7 +22,7 @@ PrincekinPopoverView
     
 # 使用效果
 
-[![img](https://github.com/iOSPrincekin/PrincekinPopoverView/blob/master/gif/效果.gif](https://github.com/iOSPrincekin/PrincekinPopoverView/blob/master/gif/效果.gif)
+[![img](https://github.com/iOSPrincekin/PrincekinPopoverView/blob/master/gif/效果.gif]
 <iframe height=500 width=500 src="https://github.com/iOSPrincekin/PrincekinPopoverView/blob/master/gif/效果.gif">
 
 
