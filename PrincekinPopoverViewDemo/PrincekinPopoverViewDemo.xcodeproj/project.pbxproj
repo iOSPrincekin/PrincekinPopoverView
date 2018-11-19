@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BE082E821A27F8300F47204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE082E721A27F8300F47204 /* AppDelegate.swift */; };
+		9BE082EA21A27F8300F47204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE082E921A27F8300F47204 /* ViewController.swift */; };
+		9BE082ED21A27F8300F47204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE082EB21A27F8300F47204 /* Main.storyboard */; };
+		9BE082EF21A27F8400F47204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE082EE21A27F8400F47204 /* Assets.xcassets */; };
+		9BE082F221A27F8400F47204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE082F021A27F8400F47204 /* LaunchScreen.storyboard */; };
+		FF5813447A11D03043B208FC /* Pods_PrincekinPopoverViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EB258DE596DED690249CFD /* Pods_PrincekinPopoverViewDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14EB258DE596DED690249CFD /* Pods_PrincekinPopoverViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrincekinPopoverViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE082E421A27F8300F47204 /* PrincekinPopoverViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrincekinPopoverViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE082E721A27F8300F47204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BE082E921A27F8300F47204 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BE082EC21A27F8300F47204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BE082EE21A27F8400F47204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BE082F121A27F8400F47204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BE082F321A27F8400F47204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A978546A5AABE3AC087F9664 /* Pods-PrincekinPopoverViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinPopoverViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinPopoverViewDemo/Pods-PrincekinPopoverViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E2E7738A1E9DCFBD6D520710 /* Pods-PrincekinPopoverViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinPopoverViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinPopoverViewDemo/Pods-PrincekinPopoverViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BE082E121A27F8300F47204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5813447A11D03043B208FC /* Pods_PrincekinPopoverViewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D8AB2BC9C58AF21949A9FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2E7738A1E9DCFBD6D520710 /* Pods-PrincekinPopoverViewDemo.debug.xcconfig */,
+				A978546A5AABE3AC087F9664 /* Pods-PrincekinPopoverViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9BE082DB21A27F8300F47204 = {
+			isa = PBXGroup;
+			children = (
+				9BE082E621A27F8300F47204 /* PrincekinPopoverViewDemo */,
+				9BE082E521A27F8300F47204 /* Products */,
+				11D8AB2BC9C58AF21949A9FB /* Pods */,
+				FEC64028E15547B8C718FDD1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BE082E521A27F8300F47204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BE082E421A27F8300F47204 /* PrincekinPopoverViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BE082E621A27F8300F47204 /* PrincekinPopoverViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9BE082E721A27F8300F47204 /* AppDelegate.swift */,
+				9BE082E921A27F8300F47204 /* ViewController.swift */,
+				9BE082EB21A27F8300F47204 /* Main.storyboard */,
+				9BE082EE21A27F8400F47204 /* Assets.xcassets */,
+				9BE082F021A27F8400F47204 /* LaunchScreen.storyboard */,
+				9BE082F321A27F8400F47204 /* Info.plist */,
+			);
+			path = PrincekinPopoverViewDemo;
+			sourceTree = "<group>";
+		};
+		FEC64028E15547B8C718FDD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14EB258DE596DED690249CFD /* Pods_PrincekinPopoverViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BE082E321A27F8300F47204 /* PrincekinPopoverViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE082F621A27F8400F47204 /* Build configuration list for PBXNativeTarget "PrincekinPopoverViewDemo" */;
+			buildPhases = (
+				60B1875183BB60243C284DA0 /* [CP] Check Pods Manifest.lock */,
+				9BE082E021A27F8300F47204 /* Sources */,
+				9BE082E121A27F8300F47204 /* Frameworks */,
+				9BE082E221A27F8300F47204 /* Resources */,
+				5CC326343789042AC08DF96F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrincekinPopoverViewDemo;
+			productName = PrincekinPopoverViewDemo;
+			productReference = 9BE082E421A27F8300F47204 /* PrincekinPopoverViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BE082DC21A27F8300F47204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LEE;
+				TargetAttributes = {
+					9BE082E321A27F8300F47204 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 9BE082DF21A27F8300F47204 /* Build configuration list for PBXProject "PrincekinPopoverViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BE082DB21A27F8300F47204;
+			productRefGroup = 9BE082E521A27F8300F47204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BE082E321A27F8300F47204 /* PrincekinPopoverViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BE082E221A27F8300F47204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE082F221A27F8400F47204 /* LaunchScreen.storyboard in Resources */,
+				9BE082EF21A27F8400F47204 /* Assets.xcassets in Resources */,
+				9BE082ED21A27F8300F47204 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CC326343789042AC08DF96F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PrincekinPopoverViewDemo/Pods-PrincekinPopoverViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PrincekinPopoverView/PrincekinPopoverView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PrincekinPopoverView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrincekinPopoverViewDemo/Pods-PrincekinPopoverViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60B1875183BB60243C284DA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrincekinPopoverViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BE082E021A27F8300F47204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE082EA21A27F8300F47204 /* ViewController.swift in Sources */,
+				9BE082E821A27F8300F47204 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BE082EB21A27F8300F47204 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE082EC21A27F8300F47204 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BE082F021A27F8400F47204 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE082F121A27F8400F47204 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BE082F421A27F8400F47204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BE082F521A27F8400F47204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BE082F721A27F8400F47204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E7738A1E9DCFBD6D520710 /* Pods-PrincekinPopoverViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXH8LLTUQN;
+				INFOPLIST_FILE = PrincekinPopoverViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.PrincekinPopoverViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BE082F821A27F8400F47204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A978546A5AABE3AC087F9664 /* Pods-PrincekinPopoverViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXH8LLTUQN;
+				INFOPLIST_FILE = PrincekinPopoverViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.PrincekinPopoverViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BE082DF21A27F8300F47204 /* Build configuration list for PBXProject "PrincekinPopoverViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE082F421A27F8400F47204 /* Debug */,
+				9BE082F521A27F8400F47204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE082F621A27F8400F47204 /* Build configuration list for PBXNativeTarget "PrincekinPopoverViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE082F721A27F8400F47204 /* Debug */,
+				9BE082F821A27F8400F47204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BE082DC21A27F8300F47204 /* Project object */;
+}
