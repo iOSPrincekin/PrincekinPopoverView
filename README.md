@@ -24,6 +24,13 @@ PrincekinPopoverView
 
 
 
+<details open=1>
+<summary>PrincekinPopoverViewDemo</summary>
+    
+[![img](https://github.com/iOSPrincekin/PrincekinPopoverView/blob/master/gif/效果.gif)](https://github.com/iOSPrincekin/PrincekinPopoverView/blob/master/gif/效果.gif)
+
+</details>
+
 ----
 # 许可
 
