@@ -22,6 +22,8 @@ PrincekinPopoverView
     
 # 使用效果
 
+[![img](https://github.com/iOSPrincekin/PrincekinPopoverView/blob/master/gif/效果.gif](https://github.com/iOSPrincekin/PrincekinPopoverView/blob/master/gif/效果.gif)
+
 
 
 ----
