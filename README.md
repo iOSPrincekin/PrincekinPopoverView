@@ -34,4 +34,4 @@ PrincekinPopoverView
 ----
 # 许可
 
-PrincekinPopoverView 是在MIT协议下开发完成的. 关于细节请查看[MIT协议](https://github.com/iOSPrincekin/PrincekinPopoverView/blob/master/LICENSE)。
+PrincekinPopoverView 是在Apache License 2.0协议下开发完成的. 关于细节请查看[Apache License 2.0协议](https://github.com/iOSPrincekin/PrincekinPopoverView/blob/master/LICENSE)。
